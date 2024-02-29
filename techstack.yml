@@ -1,12 +1,25 @@
 repo_name: reconsumeralization/skills-reusable-workflows
 report_id: 7258d8ee2589eea054926c4a60f3c3e6
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T17:05:33+00:00'
-requested_by: invalid-email-address
+timestamp: '2024-02-29T18:12:41+00:00'
+requested_by: reconsumeralization
 provider: github
 branch: main
-detected_tools_count: 2
+detected_tools_count: 4
 tools:
+- name: pgvector
+  description: Open-source vector similarity search for Postgres
+  website_url: https://github.com/pgvector/pgvector/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Database Tools
+  image_url: https://img.stackshare.io/service/109221/default_b888cdf5617d936aa6aacf130911906955508639.png
+  detection_source_url: https://github.com/reconsumeralization/skills-reusable-workflows/blob/main/.github/steps/-step.txt
+  detection_source: ".github/steps/-step.txt"
+  last_updated_by: github-actions
+  last_updated_on: 2023-07-02 04:18:54.000000000 Z
 - name: Git
   description: Fast, scalable, distributed revision control system
   website_url: http://git-scm.com/
@@ -15,6 +28,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/reconsumeralization/skills-reusable-workflows
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -24,6 +38,19 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/reusable-workflow.yml"
-  last_updated_by: reconsumeralization
-  last_updated_on: 2023-07-02 04:18:30.000000000 Z
+  detection_source_url: https://github.com/reconsumeralization/skills-reusable-workflows/blob/main/.github/workflows/0-welcome.yml
+  detection_source: ".github/workflows/0-welcome.yml"
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-10-01 00:53:43.000000000 Z
+- name: LangChain
+  description: Build AI apps with LLMs through composability
+  website_url: https://github.com/hwchase17/langchain
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/reconsumeralization/skills-reusable-workflows/blob/main/.github/steps/-step.txt
+  detection_source: ".github/steps/-step.txt"
+  last_updated_by: github-actions
+  last_updated_on: 2023-07-02 04:18:54.000000000 Z
